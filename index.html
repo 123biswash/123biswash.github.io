@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Resume</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet" />
+    <style type="text/css">a,h1,h2,h3,h4,h5,h6,li,p{font-family:Garamond,sans-serif}.resume{background-color:#1f1f1f;min-height:100vh}.resume .main{height:100%;width:700px;background-color:#fff;padding:0 25px;margin:0 auto}.resume .main .header{border-bottom:2px solid #ddd}.resume .main .header .page-title-container{margin:0 auto;text-align:center;padding-bottom:1px}.resume .main .header .page-title{font-size:20pt;display:inline}.resume .main .header .page-title-first{font-weight:400}.resume .main .header .page-title-last{font-weight:400}.resume .main .header .header-icons{text-align:center}.resume .main .header .header-icons .page-subhead{margin:1rem 15px;display:inline}.resume .main .header .fa{padding-right:10px}.resume .main .indented{padding-left:40px}.resume .main .category-row{padding-bottom:2px}.resume .main .category-row .category{margin-right:10px;padding-left:5px;padding-right:10px;border-bottom:1px solid #ddd;border-right:1px solid #ddd;border-left:1px solid #ddd}.resume .main .category-row .category-row-title{margin:.4rem 0}.resume .main .category-row .category-subtitle,.resume .main .category-row .category-title{display:inline;margin-top:10px;margin-bottom:5px}.resume .main .category-row .category-bullets{margin-top:5px}.resume .main .category-row li,.resume .main .category-row p{font-size:smaller}category:last-of-type category-item:last-of-type .category,sidebar-category:last-of-type .category{border-bottom:1!important;padding-bottom:0!important;margin-bottom:0!important} .md-caption{font-size: 14px;letter-spacing: .020em;} .md-subhead{font-size: 13px;}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script><script src="resume.js"></script>
+</head>
+<body ng-app="Resume" ng-cloak="">
+<resume>
+<resume-heading email="1biswashadhikari@gmail.com" first-name="Biswash" github="/123biswash" linkedin = "/123biswash" last-name="Adhikari" phone="(386)-334-0606">
+</resume-heading>
+
+<resume-body>
+
+ <category name="Education">
+ <category-item title= "Howard University, Washington, DC">
+     
+     <li>Bachelor of Science in Computer Science - <i>Magna Cum Laude</i>(3.6 GPA)</li>
+     </category-item>
+     
+
+<category name="Skills/Certification"> 
+	<category-item title="Skills">
+        <li><strong>  AWS, Docker, Kubernetes, Jenkins, Git, UNIX, Python, SQL, MongoDB, Javascript, Java, Git, Node.js, JIRA, Microservices, Heroku, mLab, DialogFlow</strong> </li> 
+    </category-item>
+    <category-item title="Certification">
+        <li><strong>AWS Certified Cloud Practitioner (Issued: July 2019)</strong></li>
+    </category-item>
+    
+</category-item>
+
+<resume-column flex="100"> <category name="Experience">
+	<category-item subtitle="Experian (June 2019 - Present), Austin, TX" title="AWS Engineer">
+        <li>As an AWS engineer, deployed and orchestrated containers in AWS ECS for Experian Ascend Sandbox: An analytical sandbox to provide clients with credit data and attributes on 220 million consumers </li>
+        <li>Technologies used: AWS, Jenkins, Docker, UNIX, JIRA </li>
+    </category-item>
+	<category-item subtitle="Google (August 2018 - May 2019), Mountain View, CA" title="Tech Exchange Scholar">
+        <li>Spent my senior year at Google's Mountain View campus working on projects and learning from Google Software Engineers and Product Managers </li>
+        <li>Projects comprised of building mobile/web apps, managing applications on cloud platforms, and product management</li>
+    </category-item>
+    <category-item subtitle="Goldman Sachs (August 2018 - August 2018), New York, NY" title="GS HBCU Leader">
+        <li>One of 124 students selected from a pool of over 1200 applicants to attend a three-day leadership
+            conference held at Goldman Sachs' headquarters</li>
+        <li>Networked with GS professionals and HBCU leaders, attended leadership workshops and engaged in case
+            studies on company’s mission</li>
+    </category-item>
+    <category-item subtitle="NBCUniversal Media, LLC (June 2018 - August 2018), Englewood Cliffs, NJ" title="MediaTech Intern">
+        <li>Developed a chatbot to search and display information on over 5000 movies and 600 TV shows</li>
+        <li>Developed an internal-facing chatbot for customized shuttle schedule</li>
+    </category-item>
+    <category-item subtitle="Howard University CESaC (September 2017 - May 2018), Washington, D.C." title="Developer">
+        <li>Built and maintained the Center's website on Wordpress</li>
+        <li>Built an iOS app and hosted it using mLab and Heroku</li>
+    </category-item>
+
+</category-item>
+
+</category>
+
+<category name="Extracurricular Activities">
+<li>Represented Howard University at Mellon Fellow Community Initiative Global Citizenship Program 2017</li>
+<li>Represented Howard University at International Model NATO and Model African Union 2017</li>
+<li>Executive member of Howard University Nepalese Student Association</li>
+<li>Member of Howard University Debate team, Howard ACM club, Math club and Cybersecurity club</li>
+<li>Winner of HU ResFest Debate 2016</li>
+
+</category>
+
+
+</category>
+</resume-column>
+</resume-body>
+</resume>
+<br>
+</body>
+</html>
